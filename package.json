@@ -2,7 +2,7 @@
   "name": "cp-calculator",
   "version": "1.0.0",
   "description": "Calculator using electron",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron main.js"
   },
