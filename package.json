@@ -1,0 +1,19 @@
+{
+  "name": "cp-calculator",
+  "version": "1.0.0",
+  "description": "Calculator using electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BHNomaD/cp-calculator.git"
+  },
+  "author": "Shariful Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BHNomaD/cp-calculator/issues"
+  },
+  "homepage": "https://github.com/BHNomaD/cp-calculator#readme"
+}
