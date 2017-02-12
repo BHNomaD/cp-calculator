@@ -2,18 +2,18 @@
     text-align: right;
     margin-bottom: 10px;
     font-size: 20px;
-    width: 98%;
+    width: 100%;
 }
 
 #result {
     text-align: right;
     margin-bottom: 20px;
     font-size: 40px;
-    width: 98%;
+    width: 100%;
     height: 70px;
 }
 
 .numpad, .operator, .function {
-    width: 23.5%;
+    width: 23.99%;
     height: 70px;
 }
