@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BHNomaD/cp-calculator/issues"
   },
-  "homepage": "https://github.com/BHNomaD/cp-calculator#readme"
+  "homepage": "https://github.com/BHNomaD/cp-calculator#readme",
+  "dependencies": {
+    "mathjs": "3.9.1"
+  }
 }

@@ -4,7 +4,9 @@
 </br>
 This is a test project for creating a cross platform calculator :)
 </br></br></br>
-
+<h2>Install Dependencies:</h2>
+</br>
+npm install
 <h2>Run:</h2>
 </br>
 npm start
