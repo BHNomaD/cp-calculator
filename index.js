@@ -1,4 +1,6 @@
 
+var mathjs = require("mathjs");
+
 let display = document.querySelector("#display");
 let resultVal = document.querySelector("#result");
 
@@ -13,7 +15,7 @@ var currentNumber = 0;
 var result;
 
 function reset() {
-    input = [0, 0];
+    input = ["", ""];
     isValidInput = [false, false];
     // isDecimalPointAdded = [false, false];
     operator = 0;    
@@ -133,7 +135,8 @@ document.getElementById("btn_pm").addEventListener("click", () => {
 
 function processEqual() {
     if(isValidInput[0]==true && isValidInput[1]==true) {
-        result = process();
+        result = mathjs.eval(display.value);
+       // result = process();
         resultVal.value = result;
         input[ 0 ] = result.toString();
         // isDecimalPointAdded[ 0 ] = input[ 0 ].includes(".");
