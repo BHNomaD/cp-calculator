@@ -18,7 +18,9 @@ npm start
 [windows] </br>
 1. Install "electron-packager" global </br>
 cmd> npm install -g electron-packager </br>
-2. Prepare to distribute </br>
+2. Install "electron" global </br>
+cmd> npm install -g electron </br>
+3. Prepare to distribute </br>
 cmd> electron-packager . --electron-version=1.0.0 --asar --overwrite </br>
 
 --this may work on other OS too

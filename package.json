@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/BHNomaD/cp-calculator#readme",
   "dependencies": {
-    "mathjs": "3.9.1"
+    "mathjs": ">=3.17.0"
   }
 }
